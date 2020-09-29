@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About_Us">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_us_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="6dp"
+        app:cardElevation="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="National Agricultural
+ Robotics Lab, LUMS"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="About NARL"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="Mission Statement"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textMultiLine"
+                android:padding="3dp"
+                android:text="National Agricultural Robotics Lab (NARL), part of the National Centre of Robotics and Automation (NCRA) consortium, recognizes the urgency of responding to eminent threats arising from climate change and resource mismanagement. Therefore, NARL aims to realize the potential of robotics, GIS, IoT and artificial intelligence to improve management and monitoring of Pakistan’s valuable natural resources.Through partnerships with government bodies, industry, NGOs and members of the scientific community, researchers at NARL plan to increase farm profitability, reduce negative impacts of agricultural activity, safeguard forest resources and optimize water efficiency by promoting data driven decision making. As a result, NARL is conducting state of the art research which will also lead to capacity building of all stakeholders from small scale agricultural
+farmers to the policy makers as well as the scientific community."
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="History"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textMultiLine"
+                android:padding="3dp"
+                android:text="NARL at LUMS comprises of top researchers from Electrical Engineering and Computer Science who have been leading the national scene on agricultural robotics and knowledge systems for the past 10 years. The Center for Water Informatics and Technology (WIT) at LUMS headed by Dr Abubakr Muhammad (PI), is a pioneer in the use of advanced sensor networks for monitoring large-scale irrigation networks. Extensive field studies by WIT center spanned over several years, have shown the way to Dept of Irrigation, Govt of Punjab and industries such as Nestle-Pakistan on how to deploy water flow monitoring solutions in large canals and small watercourses.  The Precision Agriculture and Forestry research cluster at LUMS, headed by Dr Mian Muhammad Awais and Dr Ahmad Kamal (Co- PIs), has done pioneering work in demonstrating UAV based crop monitoring technology. The research has been deployed to commercial scale with Dept. of Agriculture, Govt of Punjab and industry partners. In a first-of-its kind effort in Pakistan, the Computer Vision Lab headed by Dr Murtaza Taj (Co-PI) has performed digital preservation of UNESCO heritage sites across Pakistan using 3D laser sensing technology.
+
+These research groups have now joined their expertise to revolutionize agricultural practices and national resource management in Pakistan under the umbrella of NARL. With a team of dedicated researchers and graduate and undergraduate students they are paving the way for sustainability to be at the center of all natural asset decision making in Pakistan by adding transparency and accountability through cutting-edge technology."
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

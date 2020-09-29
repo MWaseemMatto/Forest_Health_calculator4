@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Forest Health Calculator4</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="lab">National Agricultural Robotics Lab, LUMS</string>
+    <string name="diameter_hint">Diameter (in inches)</string>
+    <string name="diameter_text">To measure tree height, biomass, carbon content, enter tree diameter (in inches)</string>
+
+    <string name="distance_hint">Distance (in inches) *</string>
+    <string name="distance_text">Enter distance (in feet) that you will move towards object</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="email_text">Leave a contact.</string>
+    <string name="wit_text1">Center for Water Informatics and Technology (WIT)</string>
+    <string name="wit_text2">Lahore University of Management Sciences, LUMS</string>
+    <string name="user_text">Please fill the fields</string>
+    <string name="name">Forest Health Calculator  </string>
+
+    <string name="main_text">Calculate tree height, biomass, carbon content and distance of camera and tee</string>
+
+
+    <string name="linktofacebook">
+        <a href="https://www.facebook.com/lahoreuniversityofmanagementsciences">Facebook</a>
+    </string>
+    <string name="linkyoutube">
+        <a href="https://www.youtube.com/channel/UCNyztcNIfmZquNp45gf54dg">Youtube</a>
+    </string>
+    <string name="linktwitter">
+        <a href="https://twitter.com/lifeatlums">Twitter</a>
+    </string>
+    <string name="linkinstagram">
+        <a href="https://www.instagram.com/lifeatlums/">Instagram</a>
+    </string>
+    <string name="linklinkedin">
+        <a href="https://www.linkedin.com/school/lahore-university-of-management-sciences/">Linkedin</a>
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_profile">Profile</string>
+    <string name="explore">Explore</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="settings">settings</string>
+    <string name="uan_111_115_867_ext_3534">UAN:111-115-867 | Ext:3534</string>
+    <string name="learn_more">Learn more</string>
+    <string name="latitude_of_image">Latitude of Image</string>
+    <string name="N_degree">°</string>
+    <string name="E_degree">°</string>
+</resources>
